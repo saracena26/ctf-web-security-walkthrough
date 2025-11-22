@@ -1,0 +1,70 @@
+# 📘 Glossary of Terms
+
+### JavaScript  
+A programming language that runs inside your web browser. It controls interactive behavior on websites.
+
+### Minified JavaScript  
+A compressed form of JavaScript with removed spaces and formatting to reduce file size. It looks obfuscated but does not provide true security.
+
+### JWT (JSON Web Token)  
+A token format used to store user identity and session data. It consists of a header, payload, and signature. The payload is only encoded, not encrypted, which means anyone can read it.
+
+### Base64 Encoding  
+A method of converting data into a readable text format using only safe characters. Commonly used inside JWTs and URLs.
+
+### cURL  
+A command-line tool for sending web requests without needing a browser. Useful for testing, debugging, and manually crafting HTTP requests.
+
+### Burp Suite  
+A web security testing tool that intercepts, modifies, and analyzes traffic between the browser and a server. Frequently used by penetration testers.
+
+### HTTP Headers  
+Extra pieces of metadata attached to web requests and responses. They can reveal browser details, session information, origins, or internal server data.
+
+### Cookie  
+A small piece of data stored in the browser to remember things like login status, preferences, or session identifiers.
+
+### Origin Header  
+A header that indicates where a request originated from. Attackers can spoof this header in tools like cURL to bypass weak server-side validation.
+
+### Stack Trace  
+A detailed error message showing the sequence of functions the server executed before an error occurred. Exposing stack traces reveals sensitive backend information.
+
+### NoSQL Injection  
+A form of injection attack targeting NoSQL databases such as MongoDB. It manipulates data structures instead of SQL syntax.
+
+### SQL Injection  
+An attack where malicious input is added into a SQL query, allowing attackers to bypass login
+
+### URL Parameter  
+Information added to the end of a web address to control server behavior. For example: `q=search` or `page=2`.
+
+### Open Redirect  
+A flaw where a website blindly redirects users to URLs provided in user-controlled parameters. Can be abused for phishing or malicious redirects.
+
+### URL Encoding  
+A method of representing special characters in URLs using percent symbols. For example, "/" becomes "%2F". Double-encoding means encoding characters twice to bypass filters.
+
+### Network Tab (Browser DevTools)  
+A tool that shows all files, assets, and requests a web page loads. Useful for discovering hidden resources like images or scripts.
+
+### Strings Command  
+A Linux command that extracts readable text from a binary file. Often used to find hidden messages, passwords, or debug information.
+
+### Client-Side Logic  
+Code executed directly in the user's browser. It can be viewed and modified by anyone and should never be trusted for security decisions.
+
+### Server-Side Logic  
+Code executed on the server. It is secure from user tampering and responsible for authentication, validation, and database operations.
+
+### Hash  
+A one-way transformation that turns data into a fixed-length fingerprint. Used to store passwords securely. Hashes cannot be reversed mathematically but can be guessed.
+
+### Dictionary Attack  
+A technique where many possible passwords are tried in sequence until the correct one is found.
+
+### Payload  
+Any crafted input designed for testing or exploiting a vulnerability, such as malicious URLs, JavaScript, or injection strings.
+
+### Debugger  
+A tool that allows step-by-step examination of JavaScript code as it runs. Helpful for understanding obfuscated or complex client-side logic.
